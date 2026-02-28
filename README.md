@@ -39,8 +39,5 @@ In Java, networking is handled using the `java.net` package.
 ## 🔹 TCP in Java Example
 
 ```java
-Socket socket = new Socket("localhost", 8080);
-
-🔹Server Example
 ServerSocket server = new ServerSocket(8080);
 Socket client = server.accept();
