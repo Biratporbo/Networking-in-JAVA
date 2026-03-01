@@ -42,7 +42,7 @@ We should use a new port number for each new socket. Similarly, we should allot 
 
 ## 🔗 Socket Communication Diagram
 
-![Socket Communication](socket.png)
+![Socket Communication](images/socket.png)
 
 ---
 
