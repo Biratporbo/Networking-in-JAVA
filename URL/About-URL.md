@@ -16,7 +16,7 @@
 
 - Or,
 
-**`URL obj = new URL(String protocol, String host, String path)`**
+- **`URL obj = new URL(String protocol, String host, String path);`**
 
 ---
 
