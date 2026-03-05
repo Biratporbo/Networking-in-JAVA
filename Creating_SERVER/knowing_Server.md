@@ -1,4 +1,4 @@
-# Creating a Server That Sends Data
+# 🛜 Creating a Server That Sends Data
 - We can create a socket that can be used to connect a server and a client. Once the socket is created, the server can send data to the client can receive it. All we have to do is tojust send the data from the server to the socket. The socket will take care of whom to send data on the network.
 
 - Let us follow these steps to create a server that sends some strings (messages) to the client:
