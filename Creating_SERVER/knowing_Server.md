@@ -34,3 +34,8 @@ ps.close(); //close PrintStream
 
 - *All these steps are shown of following diagram and also implemented in the Program*
 
+# Project Architecture
+
+- Below is the server diagram:
+
+![Server/Data Diagram](images/server.png)
