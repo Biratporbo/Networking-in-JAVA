@@ -6,7 +6,7 @@ Networking in Java made simple 💻 | TCP, UDP &amp; Socket programming
 ## 📦 Network-IN-Java Architecture
 
 <p align="center">
-  <img src="../images/NetworkINJava.png" width="600">
+  <img src="/images/NetworkINJava.png" width="600">
 </p>
 
 ---
