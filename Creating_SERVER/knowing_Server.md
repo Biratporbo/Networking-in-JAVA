@@ -38,4 +38,6 @@ ps.close(); //close PrintStream
 
 - Below is the server diagram:
 
-![Server/Data Diagram](images/server.png)
+<p align="center">
+  <img src="../images/server.png" width="600">
+</p>
