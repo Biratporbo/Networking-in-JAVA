@@ -1,7 +1,18 @@
-# Networking-in-JAVA
+# 🛜 Networking-in-JAVA
 Networking in Java made simple 💻 | TCP, UDP &amp; Socket programming
 
+---
+
+## 📦 Network-IN-Java Architecture
+
+<p align="center">
+  <img src="../images/NetworkINJava.png" width="600">
+</p>
+
+---
+
 ## 📌 What is Networking?
+
 Networking allows devices to communicate and share data over a network.
 
 In Java, networking is handled using the `java.net` package.
