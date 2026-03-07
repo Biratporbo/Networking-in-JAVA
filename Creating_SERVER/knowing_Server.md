@@ -41,3 +41,56 @@ ps.close(); //close PrintStream
 <p align="center">
   <img src="../images/server.png" width="600">
 </p>
+
+---
+
+## ⌨️ Program: Write a program to creat a server for the purpose of sending some strings to the client.
+
+```Java
+
+import java.io.IOException;
+import java.io.OutputStream;
+import java.io.PrintStream;
+import java.net.*;
+
+//Server1 - to send strings
+
+public class server{
+    public static void main(String[] args) throws IOException {
+        
+        //create a server socket with some port number
+        ServerSocket ss = new ServerSocket(777);
+
+        //let the server wait till a client accepts connection
+        Socket s = ss.accept();
+        System.out.println("Connection established");
+
+
+        //attach output stream to the server socket
+        OutputStream obj = s.getOutputStream();
+
+        //attach print stream to send data to the socket
+        PrintStream ps = new PrintStream(obj);
+
+        //sends 2 strings to the client
+        String str = "Hello client";
+        ps.println(str);
+        ps.println("Bye");
+
+        //close connection by closing the stream sockets
+        ps.close();
+        ss.close();
+    }
+}
+
+```
+
+## ⚡Output: 
+
+```Terminal (powershell)
+D:\Networking-in-JAVA> cd Creating_SERVER
+D:\Networking-in-JAVA\Creating_SERVER>javac server.java
+D:\Github Club\Networking-in-Java\Networking-in-JAVA\Creating_SERVER>  
+D:\Github Club\Networking-in-Java\Networking-in-JAVA\Creating_SERVER> DO NOT RUN THIS PROGRAM TILL CLIENT IS ALSO CREATED...
+
+```
