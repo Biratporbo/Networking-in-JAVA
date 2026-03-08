@@ -4,11 +4,11 @@
 
  - First we should create a socket at client side using `Socket` class are:
 
-       - **`Sockeet s = new Socket("IPAddress", port number);`**
+   - **`Sockeet s = new Socket("IPAddress", port number);`**
 
  - Here, the `IPAddress` represents the IPAddress of the server machine wheere `server.java` program is running. To know the IPAddress, we can use DOS command, as:
        
-       -**`C:\> ipconfig`**
+   -**`C:\> ipconfig`**
 
 - This will display the IPAddress of the machine where the command is applied.
 
