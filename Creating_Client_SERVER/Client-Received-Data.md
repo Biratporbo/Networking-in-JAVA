@@ -20,20 +20,20 @@
 
 - We should add `InputStream` to the socket so that the socket will be able to receive the data data on the `InputStream`.
 
-- **`InputStream obj = s.getInputStream();`**
+      - **`InputStream obj = s.getInputStream();`**
 
 - To read the data from the socket into the client, we can take the help of `BufferedReader` as: 
 
-- **`BufferedReader br = new BufferedReader(new InputStreamReader(obj));`**
+      - **`BufferedReader br = new BufferedReader(new InputStreamReader(obj));`**
 
 - Now we can read data from the the `BufferedReader` object, using `read()` or `readline()` methods `Read()` method can read a single character at a time, where `as readline()` can read a string.
 
-- **`str = br.readLine();`**
+      - **`str = br.readLine();`**
 
 - Close the connection by closing all the streams and sockets.
 
-- **`br.close(); //close the BufferedReader`**
-- **`s.close(); //close the Socket`**
+      - **`br.close(); //close the BufferedReader`**
+      - **`s.close(); //close the Socket`**
 
 - All these steps are shown in the following diagram and also implemented in Program ->
 
