@@ -35,6 +35,6 @@
 - **`br.close(); //close the BufferedReader`**
 - **`s.close(); //close the Socket`**
 
-- All these steps are shown in the following diagram and also implemented in Program ->
+- All these steps are shown in the following diagram and also implemented in Program ➡️
 
 ---
