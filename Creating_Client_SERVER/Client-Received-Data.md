@@ -74,3 +74,11 @@ public class client{
 }
 
 ```
+
+## ⚡Output:
+
+```Terminal (powershell)
+D:\Github Club\Networking-in-Java\Networking-in-JAVA\Creating_Client_SERVER>javac client.java
+D:\Github Club\Networking-in-Java\Networking-in-JAVA\Creating_Client_SERVER>
+
+```
