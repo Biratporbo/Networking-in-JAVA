@@ -82,3 +82,19 @@ D:\Github Club\Networking-in-Java\Networking-in-JAVA\Creating_Client_SERVER>java
 D:\Github Club\Networking-in-Java\Networking-in-JAVA\Creating_Client_SERVER>
 
 ```
+
+---
+
+- To run the server and client in the same system:
+
+- After compiling server.java and client.java, run these programs in two separate dos windows, as shown in the output.
+
+- To run in different systems:
+
+- Run the server.java in a computer and client.java in another. They should have been connected in a network.
+
+---
+
+- 📄 Run the `server.java` in a DOS window, the server would be in waiting state, expecting a connection from a client. Then run `client.java` in another DOS window. Immediately the connection is established, and at server side it displays "Connection established". Then it sends two strings "Hello client" and "Bye" to the client, which are received and displayed at client terminal. When the server disconnects, it sends a null string to the client. When client receives null, it also disconnects.
+
+---
