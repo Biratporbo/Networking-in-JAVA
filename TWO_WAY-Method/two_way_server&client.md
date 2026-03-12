@@ -15,7 +15,7 @@
 
 ---
 
-# ⌨️ Program: Write a program to create a server such that the server receives data from the client using `BufferedReader` and then sends reply to the client using `PrintStream`.
+## ⌨️ Program: Write a program to create a server such that the server receives data from the client using `BufferedReader` and then sends reply to the client using `PrintStream`.
 
 ```java
 
@@ -76,3 +76,7 @@ public class server2 {
 # ⚡ Output: 
 
 ```Terminal(powershell)
+d:\Github Club\Networking-in-Java\Networking-in-JAVA\TWO_WAY-Method>javac server2.java
+d:\Github Club\Networking-in-Java\Networking-in-JAVA\TWO_WAY-Method>
+
+```
