@@ -73,7 +73,7 @@ public class server2 {
 
 ---
 
-# ⚡ Output: 
+## ⚡ Output: 
 
 ```Terminal(powershell)
 d:\Github Club\Networking-in-Java\Networking-in-JAVA\TWO_WAY-Method>javac server2.java
