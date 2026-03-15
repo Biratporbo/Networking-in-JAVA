@@ -81,3 +81,20 @@ public class FileServer
 
 ---
 
+## ⚡ Output: 
+```Terminal(powershell)
+D:\Github Club\Networking-in-Java\Networking-in-JAVA> javac FileServer.java
+D:\Github Club\Networking-in-Java\Networking-in-JAVA>
+
+```
+
+---
+
+- This is a server program that receives the file name from the client and if file exists, it sends "`Yes`", otherwise "`No`" to the client. This helps the client to understand whether the file really exists at server or not. Then this server program sends the file contents to the client if the file exists.
+
+---
+
+## ⌨️ Program: Write a client program to accept a file name from the keyboard and send that name to the server. The client receives the file contents from the server.
+
+```Java
+
