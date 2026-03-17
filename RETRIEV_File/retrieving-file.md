@@ -98,3 +98,58 @@ D:\Github Club\Networking-in-Java\Networking-in-JAVA>
 
 ```Java
 
+//FileClient - receiving a file content
+
+import java.io.BufferedReader;
+import java.io.DataOutputStream;
+import java.io.InputStreamReader;
+import java.net.Socket;
+
+public class FileClient {
+    public static void main(String[] args) throws Exception {
+        //create client socket
+        Socket s = new Socket("localhost", 8888);
+
+        //accept filename from keyboard 
+        BufferedReader kb = new BufferedReader(new InputStreamReader(System.in));
+
+        System.out.println("Enter filename: ");
+        String fname = kb.readLine();
+
+        //send filename to the server using DataOutputStream
+        DataOutputStream out = new DataOutputStream(s.getOutputStream());
+        out.writeBytes(fname+"\n");
+
+        //to read data coming from the server
+        BufferedReader in = new BufferedReader(new InputStreamReader(s.getInputStream()));
+
+        String str;
+
+        //read first line from server into str
+        str = in.readLine();
+
+        //if file is found server returns "Yes", else "No"
+        if(str.equals("Yes"))
+        {
+            //read and display the file contents coming from server
+            while((str = in.readLine()) != null)
+                System.out.println(str);
+
+            //close connection by closing the streams.
+            kb.close();
+            out.close();
+            in.close();
+            s.close();
+        }
+        else System.out.println("File not found");
+    }
+}
+
+
+```
+
+---
+
+- This is a client program that accepts a file name from the keyboard and sends that name to the server. Then it reads the first line sent by the server. If it is `Yes`, then the file exists at server. If it is `No` then the file is not found at server. If file exists, then its contents are displayed at the client.
+
+---
