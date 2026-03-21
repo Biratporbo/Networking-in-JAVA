@@ -11,6 +11,19 @@ Networking in Java made simple 💻 | TCP, UDP &amp; Socket programming
 
 ---
 
+## 🚀 Getting Started
+
+Clone this repo:
+```
+git clone https://github.com/Biratporbo/Networking-in-JAVA.git
+```
+- Open in your favorite IDE (like IntelliJ or VS Code).
+- Make sure you have Java 8+ installed.
+- Run the example files in the `/src` folder.
+- That’s it—happy networking! 😎☕️
+  
+---
+
 ## 📌 What is Networking?
 
 Networking allows devices to communicate and share data over a network.
@@ -54,6 +67,17 @@ ServerSocket server = new ServerSocket(8080);
 Socket client = server.accept();
 
 ```
+
+---
+
+## 🤝 Contributing
+Found a bug or want to add a new feature?
+
+- Fork the repo
+- Create a new branch
+- Make your changes
+- Open a pull request
+- All ideas are welcome—let’s make networking in Java even better! 🚀
 
 ---
 
