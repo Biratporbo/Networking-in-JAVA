@@ -94,3 +94,9 @@ This project is licensed under the MIT License.
 Feel free to use, modify, and share it—just keep the original credits!
 
 ---
+
+## 🙏 Acknowledgements
+
+Big thanks to everyone who inspired or contributed—docs, tutorials, and the open-source community.
+
+Special shoutout to Java’s official docs and all networking geeks out there!
