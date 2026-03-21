@@ -70,6 +70,12 @@ Socket client = server.accept();
 
 ---
 
+## ☕ Conclusion
+
+- The classes of `java.net` package internally use TCP/IP and UDP protocols that are responsible for sending and receiving data. We can also establish communication between a server and a client by creating server socket and client socket. This is called 'socket programming'. The data can be then sent or received between sockets, with the help of streams. However, socket programming offers only basic networking. If we want to achieve sophisticated client-server communication, we should look forward to servlets, JSPs (Java Server Pages), etc.
+
+---
+
 ## 🤝 Contributing
 Found a bug or want to add a new feature?
 
@@ -78,12 +84,6 @@ Found a bug or want to add a new feature?
 - Make your changes
 - Open a pull request
 - All ideas are welcome—let’s make networking in Java even better! 🚀
-
----
-
-## ☕ Conclusion
-
-- The classes of `java.net` package internally use TCP/IP and UDP protocols that are responsible for sending and receiving data. We can also establish communication between a server and a client by creating server socket and client socket. This is called 'socket programming'. The data can be then sent or received between sockets, with the help of streams. However, socket programming offers only basic networking. If we want to achieve sophisticated client-server communication, we should look forward to servlets, JSPs (Java Server Pages), etc.
 
 ---
 
