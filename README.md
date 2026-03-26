@@ -53,12 +53,14 @@ In Java, networking is handled using the `java.net` package.
 
 ## 🔹 Important Java Networking Classes
 
-- `Socket`
-- `ServerSocket`
-- `DatagramSocket`
-- `InetAddress`
-- `URL`
-- `URLConnection`
+```Diff
++ `Socket`
++ `ServerSocket`
++ `DatagramSocket`
++ `InetAddress`
++ `URL`
++ `URLConnection`
+```
 
 ---
 
