@@ -1,15 +1,21 @@
 <div align="center">
-  <img src="https://skillicons.dev/icons?i=java,git,github,vscode" alt="Tech Stack Logos" width="280" />
+  <img src="https://skillicons.dev/icons?i=java,git,github,linux,neovim,postman" alt="Tech Stack" width="400" />
   
   <br>
 
-  # 🛜 Networking-in-JAVA
+  # ⚡ Java Networking Engine
+  **Engineering low-latency, high-reliability communication protocols from the ground up.**
+
+  [![Java Version](https://img.shields.io/badge/Java_17+-ED8B00?style=for-the-badge&logo=openjdk&logoColor=white)](https://www.oracle.com/java/)
+  [![Network Layer](https://img.shields.io/badge/Stack-TCP%2FIP-0078D4?style=for-the-badge&logo=internet-explorer&logoColor=white)](#)
+  [![License](https://img.shields.io/badge/License-MIT-green?style=for-the-badge)](LICENSE)
   
-  **A comprehensive laboratory for mastering TCP/IP, UDP, and High-Performance Socket Programming in Java.**
-  
-  ![Java](https://img.shields.io/badge/Java_17+-ED8B00?style=for-the-badge&logo=openjdk&logoColor=white)
-  ![Networking](https://img.shields.io/badge/Protocol-TCP%2FUDP-blue?style=for-the-badge&logo=internet-explorer&logoColor=white)
-  ![Status](https://img.shields.io/badge/Status-Active-brightgreen?style=for-the-badge)
+  <p align="center">
+    <a href="#-architecture">Architecture</a> •
+    <a href="#-roadmap">Roadmap</a> •
+    <a href="#-tech-stack">Stack</a> •
+    <a href="#-deployment">Deployment</a>
+  </p>
 </div>
 
 ---
@@ -22,7 +28,16 @@
 
 ---
 
-## 🏗️ Architecture & Concepts
+## 🏗️ The Engineering Philosophy
+
+In an era of high-level abstractions, this repository goes **under the hood**. We strip away the frameworks to master the raw mechanics of data transmission. 
+
+> [!IMPORTANT]
+> This is a laboratory for **Socket Programming**. We handle the handshakes, the buffer management, and the stream synchronization that modern web apps take for granted.
+
+---
+
+## 🔍 Architecture & Concepts
 
 Modern software doesn't exist in a vacuum. This repository breaks down the complexity of the **OSI Model** and **TCP/IP Stack** into digestible, code-first examples. We bridge the gap between "sending a string" and "building a scalable network architecture."
 
@@ -62,7 +77,7 @@ The "Fast" choice. No handshakes, low latency, best-effort delivery.
 ## 🛠️ Comprehensive Tech Stack
 
 <div align="center">
-  
+
 **Core Languages & Protocols** <br>
 ![Java](https://img.shields.io/badge/java-%23ED8B00.svg?style=flat-square&logo=openjdk&logoColor=white)
 ![TCP/IP](https://img.shields.io/badge/TCP%2FIP-Protocols-blue?style=flat-square)
@@ -82,16 +97,35 @@ The "Fast" choice. No handshakes, low latency, best-effort delivery.
 
 ---
 
-## 🚀 Getting Started
+## 📊 Repo Insights
 
-1. **Clone the Repo:**
-   ```bash
-   git clone [https://github.com/Biratporbo/Networking-in-JAVA.git](https://github.com/Biratporbo/Networking-in-JAVA.git)
-   ```
+<p align="center">
+  <img src="https://github-readme-stats.vercel.app/api/pin/?username=Biratporbo&repo=Networking-in-JAVA&theme=dark&show_owner=true" alt="Repository Stats" />
+</p>
 
-2. **Setup:** Ensure you have Java 17 or higher installed.
+---
 
-3. **Execution:** Each file in `/src` is a standalone module. Start with `TCPServer.java` and `TCPClient.java`.
+## 🚀 Repository Highlights
+
+- ⚡ **Zero to Hero:** Covers everything from basic `InetAddress` to multi-threaded servers.
+- 🛠️ **Raw Sockets:** No high-level wrappers. Understand how data is serialized and sent.
+- 🧵 **Concurrent Architecture:** Implementations of Thread Pools to handle 100+ simultaneous clients.
+- 🔐 **Secure Streams:** Foundations of moving data safely across the wire.
+
+---
+
+## 🚀 Deployment & Usage
+
+```bash
+# 1. Clone the environment
+git clone [https://github.com/Biratporbo/Networking-in-JAVA.git](https://github.com/Biratporbo/Networking-in-JAVA.git)
+
+# 2. Enter the source
+cd Networking-in-JAVA/src
+
+# 3. Compile & Run the Server
+javac TCPServer.java && java TCPServer
+```
 
 ---
 
@@ -108,7 +142,7 @@ This is a living laboratory. If you have an optimization for a buffer or a new p
 
 ## 🔗 Connect with the Developer
 
-<div align="center">
+<div align="left">
   <a href="https://www.linkedin.com/in/birat-dey-b74881281/">
     <img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn Badge"/>
   </a>
