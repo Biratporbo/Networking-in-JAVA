@@ -142,7 +142,7 @@ This is a living laboratory. If you have an optimization for a buffer or a new p
 
 ## 🔗 Connect with the Developer
 
-<div align="left">
+<div align="center">
   <a href="https://www.linkedin.com/in/birat-dey-b74881281/">
     <img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn Badge"/>
   </a>
