@@ -151,9 +151,7 @@ This is a living laboratory. If you have an optimization for a buffer or a new p
   </a>
 </div>
 
----
-
-🤝 Let's Connect
+🛜 Let's Connect
 Feel free to reach out for discussions on networking architecture, backend performance, or open-source collaboration.
 
 ---
