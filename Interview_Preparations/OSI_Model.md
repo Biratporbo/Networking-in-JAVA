@@ -243,4 +243,3 @@ Modern application protocols and software often handle data formatting, encrypti
 - **D** → Data Link
 - **P** → Physical
 
-
