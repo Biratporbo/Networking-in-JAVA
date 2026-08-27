@@ -242,3 +242,5 @@ Modern application protocols and software often handle data formatting, encrypti
 - **N** → Network
 - **D** → Data Link
 - **P** → Physical
+
+
